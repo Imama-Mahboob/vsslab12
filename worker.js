@@ -6,7 +6,7 @@ export default {
 
     // Serve your Cloudflare Pages site at root
     if (url.pathname === "/") {
-      const page = await fetch("https://vsslab12.212164.workers.dev"); // ← replace with your Pages URL if different
+      const page = await fetch("https://vsslab12.pages.dev"); // ← replace with your Pages URL if different
       const html = await page.text();
       return new Response(html, { headers: { "content-type": "text/html" } });
     }
