@@ -1,0 +1,12 @@
+name = "vsslab12"
+main = "worker.js"
+compatibility_date = "2026-06-11"
+
+[durable_objects]
+bindings = [
+  { name = "MyDatabase", class_name = "MyDatabase" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["MyDatabase"]
