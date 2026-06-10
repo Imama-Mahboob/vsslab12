@@ -1,6 +1,6 @@
 name = "vsslab12"
 main = "worker.js"
-compatibility_date = "2026-06-11"
+compatibility_date = "2026-06-10"
 
 [durable_objects]
 bindings = [
